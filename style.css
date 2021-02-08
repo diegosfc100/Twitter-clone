@@ -96,3 +96,104 @@ body {
   .icon--bird::before {
     content: "\f179";
   }
+
+  .container .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .container .top {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 25px;
+  }
+  
+  .container .middle {
+    max-height: 300px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 400px;
+  }
+  
+  .container .middle h1 {
+    font-size: 27px;
+    line-height: 32px;
+    margin-bottom: 30px;
+  }
+  
+  .container .middle .btn-sign-up {
+    display: block;
+    margin-bottom: 15px;
+    background-color: #1da1f2;
+    border: 1px solid #1da1f2;
+    color: #fff;
+    border-radius: 100px;
+    padding: 6px 16px;
+    text-align: center;
+    margin-top: 15px;
+  }
+  
+  .container .middle .btn-login {
+    display: block;
+    width: auto;
+    text-align: center;
+  }
+  
+  .container .middle .icon.icon--bird {
+    color: #1da1f2;
+    font-size: 45px;
+    margin-bottom: 8px;
+  }
+  
+  input[type="text"] {
+    border: 1px solid #e6ecf0;
+    border-radius: 3px;
+    padding: 12px;
+    display: block;
+  }
+  
+  .input-group {
+    margin-right: 12px;
+  }
+  
+  .forgot-password {
+    color: #aab8c2;
+    font-size: 14px;
+  }
+  
+  .btn-login {
+    background-color: #fff;
+    border: 1px solid #1da1f2;
+    color: #1da1f2;
+    border-radius: 100px;
+    padding: 12px;
+    font-size: 14px;
+    line-height: 20px;
+    box-sizing: border-box;
+    width: auto;
+    height: 44px;
+    width: 70px;
+    font-weight: bold;
+  }
+  
+  .btn-login:hover {
+    background-color: #eaf5fd;
+    color: #1da1f2;
+  }
+  
+  .footer .nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+  }
+  
+  .footer .nav ul li {
+    margin-right: 15px;
+    color: #5b7083;
+    font-size: 12px;
+  }
