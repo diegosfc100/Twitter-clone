@@ -20,21 +20,24 @@ Clone da antiga interface de login do Twitter usando HTML e CSS.
 
 ### [Live Demo](https://diegosfc100.github.io/Twitter-login-clone/)
 
-:rocket: Tecnologias:
+## :rocket: Tecnologias:
 
 - HTML
 - CSS
 
 ## :information_source: Como usar:
 
-Clone esse repositório:
 ```shell
-git clone git@github.com:diegosfc100/Twitter-login-clone.git
+# Clone esse repositório:
+$ git clone git@github.com:diegosfc100/Twitter-login-clone.git
 ```
-
-Inicie o servidor na linha de comando:
 ```shell
-open index.html
+# Vá para o repositório
+$ cd Twitter-login-clone
+```
+```shell
+# Inicie o servidor na linha de comando:
+$ open index.html
 ```
 
 ## :memo: License
